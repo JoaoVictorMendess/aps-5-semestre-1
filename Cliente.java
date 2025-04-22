@@ -5,7 +5,7 @@ public class Cliente {
     public static void main(String[] args) {
         try {
             // Endereço IP do servidor
-            String servidorIP = "localhost"; // Altere para o IP do servidor se estiver em outra máquina
+            String servidorIP = "10.10.3.203"; // Altere para o IP do servidor se estiver em outra máquina
             
             // Conectando ao servidor na porta 12345
             Socket socket = new Socket(servidorIP, 10001);
