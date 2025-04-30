@@ -4,9 +4,9 @@ import java.net.*;
 public class Servidor {
     public static void main(String[] args) {
         try {
-            // Criando o servidor socket na porta 12345
+            // Criando o servidor socket na porta 10001
             ServerSocket servidorSocket = new ServerSocket(10001);
-            System.out.println("Servidor iniciado na porta 12345");
+            System.out.println("Servidor iniciado na porta 10001");
             System.out.println("Aguardando conexão do cliente...");
             
             // Aguardando conexão do cliente
