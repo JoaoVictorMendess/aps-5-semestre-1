@@ -7,7 +7,7 @@ public class Cliente {
             // Endereço IP do servidor
             String servidorIP = "10.10.3.203"; // Altere para o IP do servidor se estiver em outra máquina
             
-            // Conectando ao servidor na porta 12345
+            // Conectando ao servidor na porta 10001
             Socket socket = new Socket(servidorIP, 10001);
             System.out.println("Conectado ao servidor: " + servidorIP);
             
